@@ -12,10 +12,10 @@ def handler(event, context):
     TableName='stud',
     Item={
         'studeName': {
-          'S': 'Dangar'
+          'S': 'Rohan'
         },
         'studCourse': {
-          'S': 'B tech'
+          'S': 'Mcom'
         }
     }
   )
