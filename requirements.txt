@@ -1,2 +1,2 @@
 pandas==1.2.1
-import boto3
+boto3
