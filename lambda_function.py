@@ -1,8 +1,13 @@
 import pandas as pd
+import boto3
 
 def lambda_handler(event, context):
-    d = {'col1': [1,2], 'col2': [3,4], 'col3': [2,1]}
-    df = pd.DataFrame(data=d)
-    print(df)
+    stud.put_item(
+    Item={
+        'Id': 1,
+        'studeName': 'Ramasankar',
+        'studCourse': 'AWS'
+    }
+)
     print('Hello version 4')
     
